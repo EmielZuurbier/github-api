@@ -1,0 +1,31 @@
+.banner {
+    padding: 1em;
+    color: hsla(0,0%,100%,.7);
+    background-color: #24292e;
+}
+
+.banner__title h1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875em;
+    margin: 0 0 1rem;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid #3e4448;
+}
+
+.banner__title span {
+    color: #ffffff;
+}
+
+.banner__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner__avatar {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}

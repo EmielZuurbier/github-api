@@ -1,0 +1,20 @@
+.user {
+	margin-bottom: 1em;
+}
+
+.user:last-child {
+	margin-bottom: 0;
+}
+
+.user__link {
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	padding: 1em;
+	color: #24292e;
+}
+
+.user__info li {
+	border-bottom: 1px solid #d6dbde;
+	padding: 0.5em 0;
+}

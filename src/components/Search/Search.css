@@ -1,0 +1,50 @@
+.search__form {
+	display: grid;
+	grid-template: 
+		"label" auto
+		"input" auto / 1fr;
+	gap: 0.5em;
+}
+
+.search__label {
+	grid-area: label;
+	color: #ffffffb3;
+}
+
+.search__container {
+	grid-area: input;
+	display: flex;
+	height: 2em;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.search__input {
+	flex: 1 1 auto;
+	appearance: none;
+	color: #ffffffb3;
+	background-color: #3e4448;
+	line-height: 1.5;
+	border: 0;
+	margin: 0;
+	padding: 0.5rem;
+}
+
+.search__submit {
+	flex: 0 0 auto;
+	appearance: none;
+	color: #ffffffb3;
+	background-color: #565b5f;
+	height: 2rem;
+	border: 0;
+	padding: 0rem 0.5rem;
+	line-height: 1.5;
+	cursor: pointer;
+	transition: 150ms ease-in-out;
+	transition-property: color, background-color;
+}
+
+.search__submit:hover {
+	color: #3e4448;
+	background-color: #ffffff;
+}
